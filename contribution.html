@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+<title>Safe Notes contribution guidelines | Safe Notes</title>
+<meta property="og:title" content="Safe Notes contribution guidelines" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Safe Notes is a privacy-focused note manager which provides an inbuild AES-256 encrypted storage. There is a secure migration facility that allows you to export and import your notes without compromising the sanctity of your data. May encryption protect us all!" />
+<meta property="og:description" content="Safe Notes is a privacy-focused note manager which provides an inbuild AES-256 encrypted storage. There is a secure migration facility that allows you to export and import your notes without compromising the sanctity of your data. May encryption protect us all!" />
+<script type="application/ld+json">
+{"description":"Safe Notes is a privacy-focused note manager which provides an inbuild AES-256 encrypted storage. There is a secure migration facility that allows you to export and import your notes without compromising the sanctity of your data. May encryption protect us all!","url":"http://safe-notes.keshav.space/contribution.html","@type":"WebPage","headline":"Safe Notes contribution guidelines","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Safe Notes</h1>
+        </a>
+        <h2>Safe Notes is a privacy-focused note manager which provides an inbuild AES-256 encrypted storage. There is a secure migration facility that allows you to export and import your notes without compromising the sanctity of your data. May encryption protect us all!</h2>
+
+        <section id="downloads">
+          
+            <a href="https://github.com/keshav-space/safe_notes/archive/refs/tags/v1.0.0.zip" class="btn">Download as .zip</a>
+            <a href="https://github.com/keshav-space/safe_notes/releases/download/v1.0.0/SafeNotes_v1.0.0.apk" class="btn">Download as .apk</a>
+          
+          <a href="https://github.com/keshav-space/safe_notes" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="safe-notes-contribution-guidelines"><code class="language-plaintext highlighter-rouge">Safe Notes</code> contribution guidelines</h1>
+
+<h2 id="issue-reportingfeature-requests">Issue reporting/feature requests</h2>
+
+<ul>
+  <li><strong>Already reported</strong>? Browse the <a href="https://github.com/keshav-space/safe_notes/issues">existing issues</a> to make sure your issue/feature hasn’t been reported/requested.</li>
+  <li><strong>Already fixed</strong>? Check whether your issue/feature is already fixed/implemented.</li>
+  <li><strong>Still relevant</strong>? Check if the issue still exists in the latest release/beta version.</li>
+  <li><strong>Can you fix it</strong>? If you are an Android/Java/Flutter developer, you are always welcome to fix an issue or implement a feature yourself. PRs welcome! See <a href="#code-contribution">Code contribution</a> for more info.</li>
+  <li><strong>Is it in English</strong>? Issues in other languages will be ignored unless someone translates them.</li>
+  <li><strong>Is it one issue</strong>? Multiple issues require multiple reports, that can be linked to track their statuses.</li>
+</ul>
+
+<h2 id="code-contribution">Code contribution</h2>
+
+<h3 id="guidelines">Guidelines</h3>
+
+<ul>
+  <li>Stick to Safe Notes’s <code class="language-plaintext highlighter-rouge">minimalist style</code>.</li>
+  <li>Stick to <a href="https://play.google.com/about/developer-content-policy/">Google developer guidelines</a>.</li>
+  <li>In particular <strong>do not bring non-free software</strong> (e.g. binary blobs) into the project.</li>
+</ul>
+
+<h3 id="before-starting-development">Before starting development</h3>
+
+<ul>
+  <li>If you want to help out with an existing bug report or feature request, <strong>leave a comment</strong> on that issue saying you want to try your hand at it.</li>
+  <li>If there is no existing issue for what you want to work on, <strong>open a new one</strong>  describing the changes you are planning to introduce. This gives the team and the community a chance to give <strong>feedback</strong> before you spend time on something that is already in development, should be done differently, or should be avoided completely.</li>
+  <li>Please show <strong>intention to maintain your features</strong> and code after you contribute a PR. Unmaintained code is a hassle for core developers. If you do not intend to maintain features you plan to contribute, please rethink your submission, or clearly state that in the PR description.</li>
+  <li>Create PRs that cover only <strong>one specific issue/solution/bug</strong>. Do not create PRs that are huge monoliths and could have been split into multiple independent contributions.</li>
+</ul>
+
+<h3 id="flutter-in-safe-notes">Flutter in Safe Notes</h3>
+<ul>
+  <li>Safe Notes will remain mostly Flutter for time being</li>
+</ul>
+
+<h3 id="creating-a-pull-request-pr">Creating a Pull Request (PR)</h3>
+
+<ul>
+  <li>Make changes on a <strong>separate branch</strong> with a meaningful name, not on the <em>master</em> branch or the <em>dev</em> branch. This is commonly known as <em>feature branch workflow</em>. You may then send your changes as a pull request (PR) on GitHub.</li>
+  <li>Please <strong>test</strong> (compile and run) your code before submitting changes! Ideally, provide test feedback in the PR description. Untested code will <strong>not</strong> be merged!</li>
+  <li>Respond if someone requests changes or otherwise raises issues about your PRs.</li>
+  <li>Try to figure out yourself why builds on our CI fail.</li>
+  <li>Make sure your PR is <strong>up-to-date</strong> with the rest of the code. Often, a simple click on “Update branch” will do the job, but if not, you must resolve the conflicts on your own. Doing this makes the maintainers’ job way easier.</li>
+</ul>
+
+<h2 id="communication">Communication</h2>
+
+<ul>
+  <li>The #safenotes channel on <a href="https://matrix.to/#/#safenotes:matrix.org">Matrix Chat</a> has the core team and other developers in it.</li>
+  <li>Some convenient Matrix clients, available both for phone and desktop, are listed at that link.</li>
+  <li>You can post your suggestions, changes, ideas etc. on either <code class="language-plaintext highlighter-rouge">GitHub</code> or <code class="language-plaintext highlighter-rouge">Matrix</code>.</li>
+</ul>
+
+      </section>
+    </div>
+  </body>
+</html>
+
